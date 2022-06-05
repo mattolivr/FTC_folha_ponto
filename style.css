@@ -40,6 +40,11 @@ form input[type="text"]{
     margin-bottom: 8px;
 }
 
+form input[type="submit"]{
+    font-size: 1.2em;
+    font-weight: 600;
+}
+
 form label{
     font-size: 1.2em;
     font-weight: 400;
@@ -47,7 +52,7 @@ form label{
 }
 
 #btn_download{
-    background: var(rgb(255, 255, 255));
+    background: rgb(255, 255, 255);
     
     position: absolute;
     right: 24px;
@@ -60,6 +65,10 @@ form label{
     display: flex;
     flex-direction: row;
     align-items: center;
+}
+
+#btn_download:hover{
+    background: rgb(223, 223, 223);
 }
 
 #btn_download i{
