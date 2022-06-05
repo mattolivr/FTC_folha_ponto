@@ -44,3 +44,18 @@ function setSheet() {
     
     showEmployeeData(employee)
 }
+
+function saveToFile() {
+    let FolhaPonto = getEmployeeArray()
+    let jsonObjectAsString = JSON.stringify(FolhaPonto)
+  
+    let blob = new Blob([jsonObjectAsString], {
+    //   type: 'application/json'
+      type: 'octet/stream'
+    })
+  
+    let anchor = document.createElement('a')
+    anchor.download = "signTimeSheet.json";
+    anchor.href = window.URL.createObjectURL(blob);
+    anchor.click();
+  }
