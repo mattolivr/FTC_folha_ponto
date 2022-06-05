@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Ubuntu:wght@500&display=swap');
+
+html, body{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: rgb(247, 247, 247);
+
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+}
+
+header h1{
+    font-size: 4.3em;
+    font-weight: 500;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+main{
+    min-width: 550px;
+    margin-top: 24px;
+}
+
+form div{
+    background: rgb(255, 255, 255);
+    border-radius: 6px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+
+    padding: 8px;
+    margin-bottom: 24px;
+
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+form input[type="text"]{
+    margin-bottom: 8px;
+}
+
+form label{
+    font-size: 1.2em;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#btn_download{
+    background: var(rgb(255, 255, 255));
+    
+    position: absolute;
+    right: 24px;
+    bottom: 24px;
+
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0, 0.2);
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#btn_download i{
+    color: rgb(80, 80, 80);
+    font-size: 1.7em;
+    transform: translate(0, -10%);
+
+    margin-right: 8px;
+}
+
+#btn_download span{
+    font-size: 1.1em;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+}
