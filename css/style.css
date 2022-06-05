@@ -24,12 +24,15 @@ main{
     margin-top: 24px;
 }
 
-form div{
+main div{
     background: rgb(255, 255, 255);
     border-radius: 6px;
     box-shadow: 0 0 10px rgba(0,0,0,0.2);
 
     padding: 8px;
+}
+
+form div{
     margin-bottom: 24px;
 
     display: flex;
@@ -49,6 +52,12 @@ form label{
     font-size: 1.2em;
     font-weight: 400;
     font-family: 'Open Sans', sans-serif;
+
+    margin-bottom: 4px;
+}
+
+main .alert{
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
 }
 
 #btn_download{
