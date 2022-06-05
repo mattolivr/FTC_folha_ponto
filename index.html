@@ -20,23 +20,18 @@
         <h1>FOLHA DE PONTO</h1>
     </header>
     <main>
-        <form action="#">
-            <div class="form-group">
-                <label for="input_name">Nome do Funcionário</label>
-                <input type="text" name="input_name" id="input_name" placeholder="Insira o nome do Funcionário"
-                    required />
-                <input type="submit" value="Bater ponto" class="btn btn-primary">
-            </div>
-        </form>
-        <p class="alert alert-success">
-            <strong>Enviado com sucesso!</strong>
-            <span id="user_data">MATHEUS DE OLIVEIRA - 04/06/22 12:51:22</span>
-        </p>
+        <div class="form-group">
+            <label for="input_name">Nome do Funcionário</label>
+            <input type="text" name="input_name" id="input_name" placeholder="Insira o nome do Funcionário" required />
+            <input type="submit" value="Bater ponto" class="btn btn-primary" onclick="setSheet()">
+        </div>
+        <p class="alert alert-success" id="user_data" style="display: none;"></p>
     </main>
     <button class="btn" id="btn_download">
         <i class="fa-solid fa-download"></i>
         <span>Baixar folha de pagamento</span>
     </button>
+    <script src="./javascript/setUserData.js"></script>
 </body>
 
 </html>

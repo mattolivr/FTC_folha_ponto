@@ -32,23 +32,23 @@ main div{
     padding: 8px;
 }
 
-form div{
+main div{
     margin-bottom: 24px;
 
     display: flex;
     flex-flow: column nowrap;
 }
 
-form input[type="text"]{
+main input[type="text"]{
     margin-bottom: 8px;
 }
 
-form input[type="submit"]{
+main input[type="submit"]{
     font-size: 1.2em;
     font-weight: 600;
 }
 
-form label{
+main label{
     font-size: 1.2em;
     font-weight: 400;
     font-family: 'Open Sans', sans-serif;
