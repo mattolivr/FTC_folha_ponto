@@ -6,7 +6,7 @@ html, body{
 }
 
 body{
-    background: rgb(247, 247, 247);
+    /* background: rgb(247, 247, 247); */
 
     display: flex;
     flex-flow: column nowrap;
