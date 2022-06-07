@@ -17,7 +17,7 @@
 
 ### A entrada de dados é realizada por meio de tags `<input>` do HTML em uma webpage e tratada por um script JS.
 
-![Página principal do sistema](/images/mk_webpage.png)
+![Página principal do sistema](./images/mk_webpage.png)
 
 ##### Página inicial do sistema de folha de ponto
 
@@ -33,7 +33,7 @@
 
 ### Ao substituir o arquivo *signTimeSheet.json* baixado na raiz do projeto, é possível ver uma alteração na planílha *Folha de Ponto.xlsx*, que é alimentada com os dados deste arquivo.
 
-![Planílha Excel](/images/mk_excel.png)
+![Planílha Excel](./images/mk_excel.png)
 
 ##### Planílha Excel com dados alimentados pelo sistema
 
